@@ -4,7 +4,8 @@ let submissionCount = 0;
 
 const KEY = process.env.WEBHOOK_KEY
 
-axios
+function f(){
+  axios
   .get("https://codeforces.com/api/user.status?handle=anxmukul")
   .then(response => {
     const submissions = response.data.result;
@@ -41,3 +42,6 @@ axios
   .catch(error => {
     console.log(error);
   });
+}
+
+setInterval(function(){ f()},60000)
