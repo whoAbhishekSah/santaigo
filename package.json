@@ -1,0 +1,15 @@
+{
+  "name": "santiago",
+  "version": "1.0.0",
+  "description": "Fetch codeforces submission for a user and send message to channel whenever a submission is made",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "https": "^1.0.0"
+  }
+}
