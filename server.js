@@ -54,4 +54,4 @@ app.listen(port, () =>
 
 setInterval(function() {
   f();
-}, 60000);
+}, 1000);
