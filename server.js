@@ -14,7 +14,7 @@ function f() {
       const submissions = response.data.result;
       if (submissions.length != submissionCount) {
         submissionCount = submissions.length;
-        const lastSubmission = submissions[submissions.length - 1];
+        const lastSubmission = submissions[0];
         const problemName = lastSubmission.problem.name;
         const language = lastSubmission.programmingLanguage;
         const result = lastSubmission.verdict;
