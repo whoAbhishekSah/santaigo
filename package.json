@@ -4,7 +4,7 @@
   "description": "Fetch codeforces submission for a user and send message to channel whenever a submission is made",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
